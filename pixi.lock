@@ -91,6 +91,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/jupyterlab_pygments-0.3.0-pyhd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/jupyterlab_server-2.28.0-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/jupyterlab_widgets-3.0.16-pyhcf101f3_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/jupyterthemes-0.20.0-pyhd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/keyutils-1.6.3-hb9d3cd8_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/kiwisolver-1.4.9-py310haaf941d_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/krb5-1.21.3-h659f571_0.conda
@@ -98,6 +99,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/lcms2-2.17-h717163a_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.45-default_hbd61a6d_105.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/lerc-4.0.0-h0aef613_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/lesscpy-0.15.1-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libblas-3.11.0-5_h4a7cf45_openblas.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libbrotlicommon-1.2.0-hb03c661_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libbrotlidec-1.2.0-hb03c661_1.conda
@@ -182,6 +184,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/pixi-kernel-0.7.1-pyhbbac1ac_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pixman-0.46.4-h54a6638_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.5.1-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/ply-3.11-pyhd8ed1ab_3.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prometheus_client-0.23.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.52-pyha770c72_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prompt_toolkit-3.0.52-hd8ed1ab_0.conda
@@ -1504,6 +1507,21 @@ packages:
   - pkg:pypi/jupyterlab-widgets?source=hash-mapping
   size: 216779
   timestamp: 1762267481404
+- conda: https://conda.anaconda.org/conda-forge/noarch/jupyterthemes-0.20.0-pyhd8ed1ab_2.conda
+  sha256: 8f168b350bd1fd256f27f7aea7e847cff3e2fa96ba1474c57991a2e925d470bb
+  md5: 4bca4026b20eb6d4d9a2946ea898b201
+  depends:
+  - ipython >=5.4.1
+  - jupyter_core
+  - lesscpy >=0.11.2
+  - matplotlib-base >=1.4.3
+  - python >=3.9
+  license: MIT
+  license_family: MIT
+  purls:
+  - pkg:pypi/jupyterthemes?source=hash-mapping
+  size: 4879131
+  timestamp: 1736338357933
 - pypi: https://files.pythonhosted.org/packages/ba/61/cc8be27bd65082440754be443b17b6f7c185dec5e00dfdaeab4f8662e4a8/keras-3.12.0-py3-none-any.whl
   name: keras
   version: 3.12.0
@@ -1607,6 +1625,19 @@ packages:
   purls: []
   size: 264243
   timestamp: 1745264221534
+- conda: https://conda.anaconda.org/conda-forge/noarch/lesscpy-0.15.1-pyhd8ed1ab_1.conda
+  sha256: 219951e6cc56928d918e9eb0948ffe552582e2cf758966e861fc701f2f4785d3
+  md5: 4a545c41686be13ab7d3c9b71a2ef592
+  depends:
+  - ply
+  - python >=3.9
+  - six
+  license: MIT
+  license_family: MIT
+  purls:
+  - pkg:pypi/lesscpy?source=hash-mapping
+  size: 42207
+  timestamp: 1735030350541
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libblas-3.11.0-5_h4a7cf45_openblas.conda
   build_number: 5
   sha256: 18c72545080b86739352482ba14ba2c4815e19e26a7417ca21a95b76ec8da24c
@@ -2957,6 +2988,17 @@ packages:
   - pkg:pypi/platformdirs?source=hash-mapping
   size: 23922
   timestamp: 1764950726246
+- conda: https://conda.anaconda.org/conda-forge/noarch/ply-3.11-pyhd8ed1ab_3.conda
+  sha256: bae453e5cecf19cab23c2e8929c6e30f4866d996a8058be16c797ed4b935461f
+  md5: fd5062942bfa1b0bd5e0d2a4397b099e
+  depends:
+  - python >=3.9
+  license: BSD-3-Clause
+  license_family: BSD
+  purls:
+  - pkg:pypi/ply?source=hash-mapping
+  size: 49052
+  timestamp: 1733239818090
 - conda: https://conda.anaconda.org/conda-forge/noarch/prometheus_client-0.23.1-pyhd8ed1ab_0.conda
   sha256: 13dc67de68db151ff909f2c1d2486fa7e2d51355b25cee08d26ede1b62d48d40
   md5: a1e91db2d17fd258c64921cb38e6745a
