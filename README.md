@@ -1,4 +1,7 @@
-# Explainable AI: Scene Classification and GradCam Visualization 
+# Explainable AI: Scene Classification and GradCam Visualization
+
+[![Pixi Badge](https://img.shields.io/badge/PIXI-f9c405)](https://pixi.sh/)
+![Python Badge](https://img.shields.io/badge/python-3.10.6-blue?logo=python)
 
 This project involves training a deep learning model to predict the type of scenery in images. In addition, we are going to use a technique known as Grad-Cam to help explain how AI models think. This could be practically used for detecting the type of scenery from the satellite images.
 
