@@ -7,7 +7,8 @@ This project involves training a deep learning model to predict the type of scen
 
 <!--TODO: Methodology-->
 
-<!--TODO: Dataset Description-->
+## Dataset Description
+<img src="figures/class_distribution.png" alt="Dataset Structure" height="200"/>
 
 <!--TODO: Testing input/output-->
 
