@@ -28,6 +28,7 @@ matplotlib = ">=3.10.8,<4"
 seaborn = "==0.12.1"
 pixi-kernel = "*"
 jupyterthemes = "==0.20.0"
+scikit-learn = ">=1.7.2,<2"
 
 [system-requirements]
 # Because of this requirement, pixi will make sure the cuda version of tensorflow is installed.
