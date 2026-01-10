@@ -12,7 +12,8 @@ This project involves training a deep learning model to predict the type of scen
 <img src="figures/conv_identity_block.png" alt="Dataset Structure"/>
 <img src="figures/res-block.png" alt="Dataset Structure"/>
 
-<!--TODO: Testing input/output-->
+## Testing input/output
+<img src="figures/sample_predictions.png" alt="Dataset Structure"/>
 
 <!--TODO: Live link-->
 
