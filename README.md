@@ -2,6 +2,9 @@
 
 [![Pixi Badge](https://img.shields.io/badge/PIXI-f9c405)](https://pixi.sh/)
 ![Python Badge](https://img.shields.io/badge/python-3.10.6-blue?logo=python)
+[![Tensorflow Badge](https://img.shields.io/badge/tensorflow-2.17.0-orange?logo=tensorflow)](https://www.tensorflow.org/)
+[![Keras Badge](https://img.shields.io/badge/keras%20_3-D00000?logo=keras)](https://keras.io/)
+
 
 This project involves training a deep learning model to predict the type of scenery in images. In addition, we are going to use a technique known as Grad-Cam to help explain how AI models think. This could be practically used for detecting the type of scenery from the satellite images.
 
