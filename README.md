@@ -23,8 +23,14 @@ This project involves training a deep learning model to predict the type of scen
 ## Grad-CAM Visualization
 <img src="figures/gradcam_visualizations.png" alt="Grad-CAM Visualization" width=700/>
 
-## Reference
+## References
 
 Ahmed, R. (n.d.). Explainable AI: Scene Classification and GradCam Visualization [MOOC]. Coursera. https://www.coursera.org/projects/scene-classification-gradcam
 
 Duong, B. T. (2021). Explainable AI: Scene classification and Grad-CAM visualization [Source code]. GitHub. https://github.com/baotramduong/Explainable-AI-Scene-Classification-and-GradCam-Visualization
+
+TensorFlow. (n.d.). TensorFlow documentation. https://www.tensorflow.org/
+
+Keras. (n.d.). Keras documentation. https://keras.io/
+
+Prefix.dev. (n.d.). Pixi documentation. https://pixi.prefix.dev/latest/
