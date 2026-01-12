@@ -18,9 +18,8 @@ This project involves training a deep learning model to predict the type of scen
 ## Testing input/output
 <img src="figures/sample_predictions.png" alt="Sample Predictions"/>
 
-<!--TODO: Live link-->
-
-<!--TODO: Screenshot of interface-->
+## Grad-CAM Visualization
+<img src="figures/gradcam_visualizations.png" alt="Grad-CAM Visualization" width=700/>
 
 ## Reference
 
