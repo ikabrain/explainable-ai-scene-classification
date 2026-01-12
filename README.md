@@ -12,6 +12,8 @@ This project involves training a deep learning model to predict the type of scen
 <img src="figures/conv_identity_block.png" alt="Conv Identity Block" width=700/>
 <img src="figures/res-block.png" alt="Residual Block" width=700/>
 
+*(Refer to [this image](figures/resnet18_model.png) to see model implementation)*
+
 ## Model Performance
 <img src="figures/confusion_matrix.png" alt="Confusion Matrix" height=500/>
 
